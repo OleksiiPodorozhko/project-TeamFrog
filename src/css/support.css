@@ -176,7 +176,6 @@ textarea.colon-name:invalid:focus~.text-invalid {
         border-radius: 6px;
         padding: 8px 12px;
         width: 704px;
-        font-family: "Fira Sans", sans-serif;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.6;
