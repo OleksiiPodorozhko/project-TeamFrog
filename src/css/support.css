@@ -110,7 +110,8 @@ textarea.colon-name:invalid:focus~.text-invalid {
 
 .btn-form:hover,
 .btn-form:focus {
-    background: #113916;
+    background: #030a06;
+    opacity: 0.2;
 
 }
 
@@ -258,7 +259,8 @@ textarea.colon-name:invalid:focus~.text-invalid {
     
     .btn-form:hover,
     .btn-form:focus {
-        background: #113916;
+        background: #030a06;
+        opacity: 0.2;
     
     }
     
