@@ -31,12 +31,16 @@
 @media screen and (min-width: 768px) {
   .footer .container {
     gap: 24px;
+    padding-right: 32px;
+    padding-left: 32px;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .footer .container {
     gap: 52px;
+    padding-right: 64px;
+    padding-left: 64px;
   }
 }
 
