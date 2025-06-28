@@ -35,6 +35,8 @@
 
 .footer-menu-link {
   font-size: 16px;
+  /*otherwise its height is 28px instead of needed 26px*/
+  display:block;
 }
 
 .footer-social-list {
@@ -70,6 +72,7 @@
 
 .address-list-link {
   font-size: 16px;
+  display: block;
 }
 
 .copyright {
