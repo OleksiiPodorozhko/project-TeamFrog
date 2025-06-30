@@ -120,6 +120,15 @@ textarea.colon-name:invalid:focus {
     background-image: url(../img/support/bag-mob-1x.jpg);
     margin: auto;
 }
+@media screen and (min-resolution: 2x) {
+    .box-img {
+        background-image: url(/img/support/bag-mob-2x.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    
+}
 
 
 
@@ -198,6 +207,11 @@ textarea.colon-name:invalid:focus {
         background-image: url(../img/support/bag-tablet-1x.jpg);
     }
 
+    @media screen and (min-resolution: 2x) {
+        .box-img {
+            background-image: url(../img/support/bag-tablet-2x.jpg);
+        }   
+    }
 
     .box-cont,
     .box-support,
@@ -270,4 +284,10 @@ textarea.colon-name:invalid:focus {
         height: 767px;
         background-image: url(../img/support/bag-dec-1x.jpg);
         }
+
+    @media screen and (min-resolution: 2x) {
+        .box-img {
+            background-image: url(../img/support/bag-dec-2x.jpg);
+        }       
+    }
 }   
