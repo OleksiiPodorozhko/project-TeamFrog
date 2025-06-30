@@ -1,0 +1,100 @@
+.feature {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background-image: url('../img/about/Header-min.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-size: cover;
+
+  max-width: 320px;
+}
+
+@media screen and (min-resolution: 2x) {
+  .feature {
+    background-image: url('../img/about/Header@2x-min.jpg');
+  }
+}
+
+.features-text-up {
+  margin-bottom: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #fff;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.feature-title {
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #fff;
+  max-width: 288px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.features-text-down {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  color: #fff;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+  .feature {
+    background-image: url('../img/about/feature-1-min.jpg');
+    padding-top: 80px;
+    padding-bottom: 80px;
+    max-width: 768px;
+  }
+
+  .features-text-up {
+    margin-bottom: 16px;
+  }
+  .feature-title {
+    max-width: 629px;
+    margin-bottom: 24px;
+  }
+  .features-text-down {
+    font-size: 18px;
+    max-width: 573px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) and (min-resolution: 2x) {
+  .feature {
+    background-image: url('../img/about/feature@2x-1-min.jpg');
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .feature {
+    background-image: url('../img/about/feature-min.jpg');
+    padding-top: 112px;
+    padding-bottom: 94px;
+    max-width: 1440px;
+  }
+  .feature-title {
+    font-size: 56px;
+  }
+  .features-text-down {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1158px) and (min-resolution: 2x) {
+  .feature {
+    background-image: url('../img/about/feature@2x-min.jpg');
+    max-width: 1440px;
+  }
+}
