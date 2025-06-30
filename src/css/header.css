@@ -137,6 +137,21 @@
   opacity: 0.6;
 }
 
+@media screen and (min-width: 768px) {
+  .mobile-menu-container {
+    padding: 16px 40px 16px 32px;
+  }
+
+  .mob-contacts {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+
+  .mob-menu-nav {
+    margin-bottom: 0;
+  }
+}
+
 @media screen and (min-width: 1440px) {
   .mobile-menu {
     display: none;
