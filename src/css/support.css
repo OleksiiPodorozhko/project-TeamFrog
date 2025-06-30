@@ -5,7 +5,7 @@
     line-height: 1.2;
     letter-spacing: 0.01em;
     color: #030a06;
-    margin-bottom: 8px;
+    margin-bottom: 24px;
 }
 
 .text-sup {
@@ -22,8 +22,16 @@
 }
 
 .inp-wrp {
-    margin-top: 8px;
     margin-bottom: 24px;
+}
+
+.input-wrapper {
+    padding-bottom: 8px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #030a06
 }
 
 .colon-name {
@@ -38,7 +46,6 @@
     font-size: 16px;
     line-height: 1.6;
     color: rgba(3, 10, 6, 0.6);
-    resize: none;
 }
 
 .text-invalid {
@@ -48,6 +55,7 @@
     line-height: 1.6;
     color: #d64040;
 }
+
 
 .colon-name::placeholder {
     color: rgba(3, 10, 6, 0.6);
@@ -59,13 +67,11 @@
     color: #030a06;
 }
 
-.colon-name:focus {
-    color: #030a06;
-}
 
 .colon-name:invalid:not(:placeholder-shown) {
     border: 1px solid #d64040;
     color: #d64040;
+    transition: none;
 }
 
 .colon-name:invalid:not(:focus):not(:placeholder-shown)~.text-invalid {
@@ -80,10 +86,6 @@ textarea.colon-name:invalid:focus {
     border: 1px solid #d64040;
 }
 
-textarea.colon-name:invalid:focus~.text-invalid {
-    display: block;
-    font-size: 16px;
-}
 
 .btn-form {
     border: 1px solid #030a06;
@@ -99,12 +101,14 @@ textarea.colon-name:invalid:focus~.text-invalid {
     color: #fff;
     cursor: pointer;
     margin-bottom: 24px;
+    
 }
 
 .btn-form:hover,
 .btn-form:focus {
     background: #030a06;
     opacity: 0.2;
+    transition: none;
 }
 
 .box-img {
@@ -122,8 +126,11 @@ textarea.colon-name:invalid:focus~.text-invalid {
 @media screen and (min-width: 768px) {
     .container {
         max-width: 736px;
-        padding: 64px 32px;
-        margin: 0 auto;
+        padding: 0 32px;
+    }
+    .section {
+        padding-top: 64px;
+        padding-bottom: 64px;   
     }
 
     .box-support {
@@ -167,17 +174,9 @@ textarea.colon-name:invalid:focus~.text-invalid {
     }
 
     .colon-name {
-        border: 1px solid rgba(3, 10, 6, 0.15);
-        border-radius: 6px;
-        padding: 8px 12px;
-        width: 704px;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.6;
-        color: rgba(3, 10, 6, 0.6);
-        background: rgba(3, 10, 6, 0.05);
         transition: all 0.3s ease;
         outline: none;
+        resize: none;
         }
     
     .inp-wrp {
@@ -185,90 +184,21 @@ textarea.colon-name:invalid:focus~.text-invalid {
         margin-bottom: 24px;
     }
     
-    .text-invalid {
-        display: none;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 1.6;
-        color: #d64040;
-    }
-    
-    .colon-name::placeholder {
-        color: rgba(3, 10, 6, 0.6);
-        font-size: 16px;
-        transition: opacity 0.3s ease;
-    }
-    
-    
-    .colon-name:focus::placeholder {
-        color: #030a06;
-    }
-    
-    .colon-name:focus {
-        color: #030a06;
-    }
-    
-    
-    .colon-name:invalid:not(:placeholder-shown) {
-        border: 1px solid #d64040;
-        color: #d64040;
-    
-    }
-    
-    .colon-name:invalid:not(:focus):not(:placeholder-shown)~.text-invalid {
-        display: block;
-    }
-    
-    
-    textarea.colon-name:invalid {
-        color: rgba(3, 10, 6, 0.6);
-    }
-    
-    textarea.colon-name:invalid:focus {
-        border: 1px solid #d64040;
-    }
-    
-    textarea.colon-name:invalid:focus~.text-invalid{
-        display: block;
-        font-size: 16px;
-    }
-    
+
     
     .btn-form {
-        border: 1px solid #030a06;
-        border-radius: 6px;
-        padding: 12px 24px;
-        width: 198px;
-        background: #030a06;
-        cursor: pointer;
-        border: none;
-        font-family: "Fira Sans", sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.6;
-        color: #fff;
+        width: 249px;
+        margin-bottom: 0;
     }
     
     
-    .btn-form:hover,
-    .btn-form:focus {
-        background: #030a06;
-        opacity: 0.2;
-    
-    }
     
     .box-img {
-        background-color: #113916;
-        border-radius: 40px;
-        width: 100%;
         max-width: 704px;
-        height: 428px;
         background-image: url(../img/support/bag-tablet-1x.jpg);
-        margin: auto;
     }
 
 
-     
     .box-cont,
     .box-support,
     .form,
@@ -288,32 +218,18 @@ textarea.colon-name:invalid:focus~.text-invalid {
         display: flex;
     } 
     
-        
-    
-
     .box-support {
         width: 644px;
         margin-right: 24px;
     }
     
     .title-sup {
-        font-family: "Comfortaa", sans-serif;
-        font-weight: 700;
         font-size: 48px;
-        line-height: 1.2;
-        letter-spacing: 0.01em;
-        color: #030a06;
         margin-bottom: 24px;
         text-transform: inherit;
     }
     
     .text-sup {
-        font-family: "Fira Sans", sans-serif;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 1.6;
-        color: #030a06;
-        margin-bottom: 32px;
         text-transform: inherit;
     }
     
@@ -322,98 +238,22 @@ textarea.colon-name:invalid:focus~.text-invalid {
     }
     
     .input-wrapper {
-        font-family: "Fira Sans", sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.6;
-        color: #030a06;
         margin-bottom: 8px;
         display: flex;
         flex-direction: column;
     }
     
     .colon-name {
-        border: 1px solid rgba(3, 10, 6, 0.15);
-        border-radius: 6px;
-        padding: 8px 12px;
         width: 644px;
-        font-family: "Fira Sans", sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.6;
-        color: rgba(3, 10, 6, 0.6);
-        background: rgba(3, 10, 6, 0.05);
         resize: none;
         transition: all 0.3s ease;
         outline: none;
     }
     
-    .inp-wrp {
-        margin-bottom: 24px;
-    }
-
-    .text-invalid {
-        display: none;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 1.6;
-        color: #d64040;
-    }
-    
-    .colon-name::placeholder {
-        color: rgba(3, 10, 6, 0.6);
-        font-size: 16px;
-        transition: opacity 0.3s ease;
-    }
-    
-    
-    .colon-name:focus::placeholder {
-        color: #030a06;
-    }
-    
-    .colon-name:focus {
-        color: #030a06;
-    }
-    
-    
-    .colon-name:invalid:not(:placeholder-shown) {
-        border: 1px solid #d64040;
-        color: #d64040;
-    
-    }
-    
-    .colon-name:invalid:not(:focus):not(:placeholder-shown)~.text-invalid {
-        display: block;
-    }
-    
-    
-    textarea.colon-name:invalid {
-        color: rgba(3, 10, 6, 0.6);
-    }
-    
-    textarea.colon-name:invalid:focus {
-        border: 1px solid #d64040;
-    }
-    
-    textarea.colon-name:invalid:focus~.text-invalid {
-        display: block;
-        font-size: 16px;
-    }
     
     
     .btn-form {
-        border: 1px solid #030a06;
-        border-radius: 6px;
-        padding: 12px 24px;
         width: 198px;
-        background: #030a06;
-        cursor: pointer;
-        border: none;
-        font-family: "Fira Sans", sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.6;
-        color: #fff;
     }
     
     
@@ -426,8 +266,6 @@ textarea.colon-name:invalid:focus~.text-invalid {
     
     
     .box-img {
-        background-color: #113916;
-        border-radius: 40px;
         width: 644px;
         height: 767px;
         background-image: url(../img/support/bag-dec-1x.jpg);
