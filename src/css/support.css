@@ -132,21 +132,12 @@ textarea.colon-name:invalid:focus {
   }
 
   .title-sup {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.2;
-    letter-spacing: 0.01em;
     width: 468px;
-    color: #030a06;
     margin-bottom: 24px;
     text-transform: inherit;
   }
 
   .text-sup {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.6;
-    color: #030a06;
     margin-bottom: 32px;
     text-transform: inherit;
   }
@@ -156,10 +147,6 @@ textarea.colon-name:invalid:focus {
   }
 
   .input-wrapper {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.6;
-    color: #030a06;
     padding-bottom: 8px;
   }
 
