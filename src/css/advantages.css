@@ -135,13 +135,17 @@
 
 /*--------------------------------advant-list-----------------*/
 .advant-list {
-    width: 100%;
+    
 }
 
 @media screen and (min-width: 768px) {
         .advant-list {
-        display: flex;
+            display: grid;
+                grid-template-columns: 340px 340px;
         gap: 24px;
+    }
+    .full-item {
+        grid-column: span 2;
     }
     }
 
@@ -164,17 +168,15 @@
 .advant-img {
     border-radius: 32px;
     width: 288px;
-    height: 198px;
     margin-bottom: 8px;
 }
 
 @media screen and (min-width: 768px) {
-    .advant-img {
-        width: 340px;
-        height: 201px;
+        .advant-img {
+        width: 704px;
         margin-bottom: 32px;
     }
-}
+    }
 
 @media screen and (min-width: 1440px) {
     .advant-img {
