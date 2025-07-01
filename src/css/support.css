@@ -189,7 +189,6 @@ textarea.colon-name:invalid:focus {
         }
     
     .inp-wrp {
-        margin-top: 8px;
         margin-bottom: 24px;
     }
     
@@ -252,7 +251,6 @@ textarea.colon-name:invalid:focus {
     }
     
     .input-wrapper {
-        margin-bottom: 8px;
         display: flex;
         flex-direction: column;
     }
