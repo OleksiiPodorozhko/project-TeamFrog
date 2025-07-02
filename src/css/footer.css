@@ -97,6 +97,13 @@
   display: block;
 }
 
+@media screen and (min-width: 1440px) {
+  .footer-menu-link {
+    padding-top: 22px;
+    padding-bottom: 22px;
+  }
+}
+
 .footer-social-list {
   display: flex;
   gap: 12px;
