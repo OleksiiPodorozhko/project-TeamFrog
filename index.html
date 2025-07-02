@@ -18,7 +18,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" crossorigin href="/project-TeamFrog/assets/index-DXFppuBg.css">
+    <link rel="stylesheet" crossorigin href="/project-TeamFrog/assets/index-CgDt7SmZ.css">
   </head>
   <body>
     <header class="page-header">
@@ -750,7 +750,65 @@
   </div>
 </section>
 
-      
+      <section class="section support">
+  <div class="container" id="support">
+    <div class="box-support">
+      <h2 class="title-sup">Залишились питання? Зв'яжіться з нами!</h2>
+      <h3 class="text-sup">Ми тут, щоб допомогти!</h3>
+
+      <form class="form" name="support">
+        <div class="inp-wrp">
+          <label class="input-wrapper" for="user-name">Ім'я</label>
+          <input
+            class="colon-name"
+            id="user-name"
+            type="text"
+            name="user-name"
+            placeholder="Іван"
+            minlength="5"
+            maxlength="64"
+            required
+          />
+          <p class="text-invalid">Введіть своє ім'я</p>
+        </div>
+
+        <div class="inp-wrp">
+          <label class="input-wrapper" for="user-email">Електронна пошта</label>
+          <input
+            class="colon-name"
+            id="user-email"
+            type="email"
+            name="email"
+            placeholder="hello@ecotote.com"
+            pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+            required
+          />
+          <p class="text-invalid">Введіть свою пошту</p>
+        </div>
+
+        <div class="inp-wrp">
+          <label class="input-wrapper" for="user-comment">Повідомлення</label>
+          <textarea
+            class="colon-name texa"
+            id="user-comment"
+            name="user-comment"
+            rows="5"
+            maxlength="500"
+            placeholder="Введіть своє повідомлення..."
+          ></textarea>
+          <p class="text-invalid">Залиште повідомлення</p>
+        </div>
+
+        <button type="submit" class="btn-form">Надіслати</button>
+      </form>
+    </div>
+
+    <div>
+      <div class="box-img"></div>
+    </div>
+  </div>
+</section>
+
     </main>
 
     <footer class="footer section">
