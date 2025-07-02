@@ -1,13 +1,5 @@
 .feedbacks .container {
-  padding-top: 32px;
-  padding-bottom: 32px;
   background-color: #ebf8ed;
-}
-@media screen and (min-width: 768px) {
-  .feedbacks .container {
-    padding-top: 64px;
-    padding-bottom: 64px;
-  }
 }
 
 .feedbacks-title {
@@ -54,8 +46,8 @@
 }
 .feedbacks-rating {
   display: flex;
-  justify-content: baseline;
-  align-items: flex-start;
+  justify-content: flex-start;
+  align-items: baseline;
   gap: 4px;
 }
 .feedbacks-list-item:first-child .feedbacks-rating-stars .icon-star {
@@ -103,12 +95,12 @@
   .feedbacks-list {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 24px;
-    row-gap: 48px;
+    gap: 32px 24px;
     align-items: flex-start;
   }
   .feedbacks-list-item {
     width: calc((100% - 24px) / 2);
+    gap: 24px;
   }
 }
 @media screen and (min-width: 1440px) {
