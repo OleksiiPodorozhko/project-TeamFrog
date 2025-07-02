@@ -1,0 +1,189 @@
+/*----------------------container-advant-----------------*/
+.container-advant {
+    width: 288px;
+    margin-bottom: 48px;
+}
+
+@media screen and (min-width: 768px) {
+    .container-advant {
+        width: 704px;
+        margin-bottom: 32px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container-advant {
+        width: 768px;
+        margin-bottom: 80px;
+    }
+}
+
+
+/*-----------------------advant-title-----------------*/
+.advant-title {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    color: #030a06;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .advant-title {
+        margin-bottom: 24px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .advant-title {
+        font-size: 48px;
+        margin-bottom: 24px;
+    }
+}
+
+
+/*-------------------------advant-title-two-----------------*/
+.advant-title-two {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+    color: #030a06;
+    margin-bottom: 4px;
+}
+
+@media screen and (min-width: 768px) {
+    .advant-title-two {
+        margin-bottom: 8px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .advant-title-two {
+        font-size: 32px;
+        margin-bottom: 24px;
+    }
+}
+
+
+/*---------------------------advant-title-three-----------------*/
+.advant-title-three {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #030a06;
+    margin-bottom: 12px;
+}
+
+@media screen and (min-width: 768px) {
+    .advant-title-three {
+        margin-bottom: 16px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .advant-title-three {
+        margin-bottom: 16px;
+    }
+}
+
+
+/*--------------------------------advant-text-----------------*/
+.advant-text {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #030a06;
+    margin-bottom: 48px;
+}
+
+@media screen and (min-width: 768px) {
+    .advant-text {
+        font-size: 18px;
+    }
+}
+
+
+/*--------------------------------advant-text-two-----------------*/
+.advant-text-two {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #030a06;
+}
+
+
+/*--------------------------------advant-list-----------------*/
+.advant-list {    
+}
+
+@media screen and (min-width: 768px) {
+        .advant-list {
+        display: grid;
+        grid-template-columns: 340px 340px;
+        gap: 24px;
+    }
+    .full-item {
+        grid-column: span 2;
+    }
+    }
+
+@media screen and (min-width: 1440px) {
+    .advant-list {
+        display: flex;
+        gap: 24px;
+    }
+}
+
+
+/*--------------------------------advant-item-----------------*/
+.advant-item {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 48px;
+}
+.advant-item:last-child {
+    margin-bottom: 0px;
+}
+@media screen and (min-width: 768px) {
+    .advant-item {
+    margin-bottom: 0px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .advant-img {
+        width: 421px;
+        height: 249px;
+        margin-bottom: 32px;
+    }
+}
+
+
+/*--------------------------------advant-img-----------------*/
+.advant-img {
+    border-radius: 32px;
+    width: 288px;
+    margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+        .advant-img {
+        width: 704px;
+        margin-bottom: 32px;
+    }
+    }
+
+@media screen and (min-width: 1440px) {
+    .advant-img {
+        width: 421px;
+        height: 249px;
+        margin-bottom: 32px;
+    }
+}
