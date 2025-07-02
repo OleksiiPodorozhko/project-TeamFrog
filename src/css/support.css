@@ -192,7 +192,7 @@ textarea.colon-name:invalid:focus {
 }
 
 @media screen and (min-width: 1440px) {
-  .container {
+  .support .container {
     display: flex;
   }
 
