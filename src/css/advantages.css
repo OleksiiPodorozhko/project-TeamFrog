@@ -99,7 +99,6 @@
     font-size: 16px;
     line-height: 1.6;
     color: #030a06;
-    margin-bottom: 48px;
 }
 
 @media screen and (min-width: 768px) {
@@ -120,7 +119,7 @@
 
 
 /*--------------------------------advant-list-----------------*/
-.advant-list {    
+.advant-list {
 }
 
 @media screen and (min-width: 768px) {

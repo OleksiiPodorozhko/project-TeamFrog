@@ -11,16 +11,12 @@
   text-align: center;
   color: #030a06;
   max-width: 288px;
-
-  padding-bottom: 32px;
-  margin: 0 auto;
+  margin: 0 auto 32px;
 }
 
 @media screen and (min-width: 768px) {
   .feedbacks-title {
     max-width: 560px;
-    padding-bottom: 0;
-    margin-bottom: 32px;
   }
 }
 @media screen and (min-width: 1440px) {
