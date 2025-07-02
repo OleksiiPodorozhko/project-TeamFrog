@@ -7,12 +7,14 @@
 @media screen and (min-width: 768px) {
     .container-advant {
         width: 704px;
+        margin-bottom: 32px;
     }
 }
 
 @media screen and (min-width: 1440px) {
     .container-advant {
         width: 768px;
+        margin-bottom: 80px;
     }
 }
 
@@ -103,14 +105,6 @@
 @media screen and (min-width: 768px) {
     .advant-text {
         font-size: 18px;
-        margin-bottom: 32px;
-    }
-}
-
-@media screen and (min-width: 1440px) {
-    .advant-text {
-        font-size: 18px;
-        margin-bottom: 80px;
     }
 }
 
