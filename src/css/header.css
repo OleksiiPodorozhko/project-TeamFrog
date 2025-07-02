@@ -28,8 +28,8 @@
   border: none;
   background-color: transparent;
   transition:
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    cubic-bezier(0.4, 0, 0.2, 1);
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .burger-icon {
@@ -79,14 +79,13 @@
   align-items: center;
   background-color: transparent;
   transition:
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    cubic-bezier(0.4, 0, 0.2, 1);
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mobile-close:hover,
 .mobile-close:focus {
-  fill: #113916;
-  opacity: 0.6;
+  opacity: 0.5;
 }
 
 .mobile-nav {
@@ -102,8 +101,8 @@
   line-height: 1.6;
   color: #030a06;
   transition:
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    cubic-bezier(0.4, 0, 0.2, 1);
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mob-contacts-link {
@@ -112,8 +111,8 @@
   line-height: 1.6;
   color: #030a06;
   transition:
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    cubic-bezier(0.4, 0, 0.2, 1);
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mob-contacts-item:not(:last-child) {
@@ -133,8 +132,7 @@
 .mob-contacts-link:hover,
 .mob-nav-link:focus,
 .mob-contacts-link:focus {
-  color: #113916;
-  opacity: 0.6;
+  opacity: 0.5;
 }
 
 @media screen and (min-width: 768px) {
@@ -235,15 +233,14 @@
     display: block;
 
     transition:
-      color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-      cubic-bezier(0.4, 0, 0.2, 1);
+      opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .nav-link:hover,
   .contacts-link:hover,
   .nav-link:focus,
   .contacts-link:focus {
-    color: #113916;
-    opacity: 0.6;
+    opacity: 0.5;
   }
 }
