@@ -77,7 +77,7 @@
   }
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1440px) {
   .feature {
     background-image: url('../img/about/feature-min.jpg');
     padding-top: 112px;
@@ -92,7 +92,7 @@
   }
 }
 
-@media screen and (min-width: 1158px) and (min-resolution: 2x) {
+@media screen and (min-width: 1440px) and (min-resolution: 2x) {
   .feature {
     background-image: url('../img/about/feature@2x-min.jpg');
     max-width: 1440px;
