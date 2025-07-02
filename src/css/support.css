@@ -1,0 +1,246 @@
+.title-sup {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  color: #030a06;
+  margin-bottom: 24px;
+}
+
+.text-sup {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #030a06;
+  margin-bottom: 32px;
+}
+
+.form {
+  width: 288px;
+}
+
+.inp-wrp {
+  margin-bottom: 24px;
+}
+
+.input-wrapper {
+  padding-bottom: 8px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #030a06;
+  display: block;
+}
+
+.colon-name {
+  border: 1px solid rgba(3, 10, 6, 0.15);
+  border-radius: 6px;
+  padding: 8px 12px;
+  width: 100%;
+  background: rgba(3, 10, 6, 0.05);
+  outline: none;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: rgba(3, 10, 6, 0.6);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.texa {
+  padding: 12px;
+}
+
+.text-invalid {
+  display: none;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.6;
+  color: #d64040;
+}
+
+.colon-name::placeholder {
+  color: rgba(3, 10, 6, 0.6);
+  font-size: 16px;
+  transition: opacity 0.3s ease;
+}
+
+.colon-name:focus::placeholder {
+  color: #030a06;
+}
+
+.colon-name:invalid:not(:placeholder-shown) {
+  border: 1px solid #d64040;
+  color: #d64040;
+  transition: none;
+}
+
+.colon-name:invalid:not(:focus):not(:placeholder-shown) ~ .text-invalid {
+  display: block;
+}
+
+textarea.colon-name:invalid {
+  color: rgba(3, 10, 6, 0.6);
+}
+
+textarea.colon-name:invalid:focus {
+  border: 1px solid #d64040;
+}
+
+.btn-form {
+  border: 1px solid #030a06;
+  border-radius: 6px;
+  padding: 12px 24px;
+  width: 100%;
+  max-width: 288px;
+  background: #030a06;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 24px;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-form:hover,
+.btn-form:focus {
+  opacity: 0.5;
+}
+
+.box-img {
+  background-color: #113916;
+  border-radius: 40px;
+  width: 100%;
+  max-width: 288px;
+  height: 428px;
+  background-image: url(../img/support/bag-mob-1x.jpg);
+  margin: auto;
+}
+@media screen and (min-resolution: 2x) {
+  .box-img {
+    background-image: url(/img/support/bag-mob-2x.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .box-support {
+    width: 704px;
+    margin-bottom: 24px;
+  }
+
+  .title-sup {
+    width: 468px;
+    margin-bottom: 24px;
+    text-transform: inherit;
+  }
+
+  .text-sup {
+    margin-bottom: 32px;
+    text-transform: inherit;
+  }
+
+  .form {
+    width: 704px;
+  }
+
+  .input-wrapper {
+    padding-bottom: 8px;
+  }
+
+  .colon-name {
+    outline: none;
+    resize: none;
+  }
+
+  .inp-wrp {
+    margin-bottom: 24px;
+  }
+
+  .btn-form {
+    width: 249px;
+    margin-bottom: 0;
+  }
+
+  .box-img {
+    max-width: 704px;
+    background-image: url(../img/support/bag-tablet-1x.jpg);
+  }
+
+  @media screen and (min-resolution: 2x) {
+    .box-img {
+      background-image: url(../img/support/bag-tablet-2x.jpg);
+    }
+  }
+
+  .box-cont,
+  .box-support,
+  .form,
+  .tab-img,
+  .box-img-tab,
+  .colon-name {
+    width: 100%;
+    max-width: 704px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .support .container {
+    display: flex;
+  }
+
+  .box-support {
+    width: 644px;
+    margin-right: 24px;
+  }
+
+  .title-sup {
+    width: 644px;
+    font-size: 48px;
+    margin-bottom: 24px;
+    text-transform: inherit;
+  }
+
+  .text-sup {
+    text-transform: inherit;
+  }
+
+  .form {
+    width: 644px;
+  }
+
+  .colon-name {
+    width: 644px;
+    resize: none;
+    outline: none;
+  }
+
+  .btn-form {
+    width: 198px;
+  }
+
+  .btn-form:hover,
+  .btn-form:focus {
+    background: #030a06;
+    opacity: 0.2;
+  }
+
+  .box-img {
+    width: 644px;
+    height: 767px;
+    background-image: url(../img/support/bag-dec-1x.jpg);
+  }
+
+  @media screen and (min-resolution: 2x) {
+    .box-img {
+      background-image: url(../img/support/bag-dec-2x.jpg);
+    }
+  }
+}
