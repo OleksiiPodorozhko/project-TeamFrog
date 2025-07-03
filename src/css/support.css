@@ -154,10 +154,6 @@ textarea.colon-name:invalid:focus {
     margin-bottom: 0;
   }
 
-  .input-wrapper {
-    padding-bottom: 8px;
-  }
-
   .colon-name {
     outline: none;
     resize: none;
