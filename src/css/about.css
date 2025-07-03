@@ -1,7 +1,7 @@
 .feature {
   padding-top: 64px;
   padding-bottom: 64px;
-  background-image: url('../img/about/Header-min.jpg');
+  background-image: url('/img/about/Header-min.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   margin: 0 auto;
@@ -12,7 +12,7 @@
 
 @media screen and (min-resolution: 2x) {
   .feature {
-    background-image: url('../img/about/Header@2x-min.jpg');
+    background-image: url('/img/about/Header@2x-min.jpg');
   }
 }
 
@@ -50,7 +50,7 @@
 
 @media screen and (min-width: 768px) {
   .feature {
-    background-image: url('../img/about/feature-1-min.jpg');
+    background-image: url('/img/about/feature-1-min.jpg');
     padding-top: 80px;
     padding-bottom: 80px;
     max-width: 768px;
@@ -72,14 +72,14 @@
 
 @media screen and (min-width: 768px) and (min-resolution: 2x) {
   .feature {
-    background-image: url('../img/about/feature@2x-1-min.jpg');
+    background-image: url('/img/about/feature@2x-1-min.jpg');
     max-width: 768px;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .feature {
-    background-image: url('../img/about/feature-min.jpg');
+    background-image: url('/img/about/feature-min.jpg');
     padding-top: 112px;
     padding-bottom: 94px;
     max-width: 1440px;
@@ -94,7 +94,7 @@
 
 @media screen and (min-width: 1440px) and (min-resolution: 2x) {
   .feature {
-    background-image: url('../img/about/feature@2x-min.jpg');
+    background-image: url('/img/about/feature@2x-min.jpg');
     max-width: 1440px;
   }
 }

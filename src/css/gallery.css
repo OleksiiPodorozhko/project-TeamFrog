@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: column;
     padding: 0;
-    margin: 0; 
+    margin: 0;
     list-style: none;
     width: 100%;
     align-items: center;
@@ -29,9 +29,6 @@
     overflow: hidden;
 }
 
-.title-section-gallery {   
-} 
-
 .title-gallery {
     margin-bottom: 16px;
     font-weight: 700;
@@ -44,7 +41,6 @@
 }
 
 .subtitle-gallery {
-    margin-bottom: 32px;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.6;
@@ -52,7 +48,8 @@
     text-align: center;
 }
 
-.img-section {
+.title-section-gallery {
+  margin-bottom: 32px;
 }
 
 .img-section img {
