@@ -9,9 +9,19 @@
   padding-right: 20px;
   padding-left: 20px;
 }
+
 .icon-logo {
   display: block;
   fill: #030a06;
+  width: 84px;
+  height: auto;
+}
+
+@media screen and (min-width: 1440px) {
+  .icon-logo {
+    width: 106px;
+    height: auto;
+  }
 }
 
 .nav-list,
